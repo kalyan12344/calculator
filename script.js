@@ -25,8 +25,7 @@ key.forEach((key) => {
         //when = button is clicked we calculate the result and display it
         else if (key.value == "=") {
             number2 = text.value;
-            console.log(symbol);
-            console.log(number1, number2)
+
             if (symbol == "+") {
 
                 result = parseFloat(number1) + parseFloat(number2);

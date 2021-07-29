@@ -107,3 +107,21 @@ body {
     transition: .001s ease-in-out;
     transform: scale(0.8);
 }
+
+@media screen and (min-width: 1024px) {
+    .calculator {
+        left: 40%;
+    }
+    .heading {
+        left: 43vw;
+    }
+}
+
+@media screen and (max-width: 478px) {
+    .calculator {
+        left: 5vw;
+    }
+    .heading {
+        left: 8vw;
+    }
+}
