@@ -1,0 +1,109 @@
+/* @import url(//db.onlinewebfonts.com/c/5ab2c4f25a071d4d58cc2c36fa3aab78?family=OldTypefaces);
+ */
+
+@import url(//db.onlinewebfonts.com/c/0ac3eac6f4dfc6386aab8f37a871d276?family=Hard+Typeface);
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* display: flex; */
+    position: relative;
+    height: 100%;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.heading {
+    text-transform: uppercase;
+    position: absolute;
+    left: 35vw;
+    top: 10vh;
+}
+
+.calculator {
+    position: absolute;
+    height: 485px;
+    width: 300px;
+    background-color: rgb(22, 22, 22);
+    top: 20vh;
+    left: 30%;
+    border-radius: 10px;
+}
+
+.input-area {
+    margin-left: 11px;
+    margin-top: 30px;
+}
+
+.input-area input {
+    height: 60px;
+    width: 270px;
+    border: 1px solid rgba(0, 0, 0, 0.297);
+    border-radius: 2px;
+    text-align: right;
+    outline: none;
+    color: rgb(0, 102, 254);
+    font-size: 2em;
+    background-color: rgba(89, 147, 114, 0.441);
+    padding-right: 5px;
+    font-family: Hard Typeface;
+}
+
+.keys {
+    display: grid;
+    /* grid-template-columns: auto auto auto auto; */
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.keys .key1 {
+    width: 130px !important;
+    height: 30px !important;
+    margin-bottom: 20px;
+    background-color: seagreen;
+    border-radius: 5px !important;
+}
+
+.keys .key,
+.equals {
+    width: 63px;
+    margin-bottom: 20px;
+    height: 63px;
+}
+
+.equals {
+    background-color: orangered !important;
+    border: none;
+    border-radius: 5px;
+}
+
+.key {
+    border-radius: 50% !important;
+}
+
+.key1,
+.key {
+    text-align: center;
+    font-weight: 600;
+    font-size: larger;
+    background-color: aqua;
+    border: none;
+    outline: none;
+}
+
+
+/* .key1:hover,
+.key:hover,
+.equals:hover {
+    transition: .2s ease-in-out;
+    transform: rotateY(180deg);
+} */
+
+.key1:active,
+.key:active,
+.equals:active {
+    transition: .001s ease-in-out;
+    transform: scale(0.8);
+}
